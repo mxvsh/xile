@@ -1,6 +1,22 @@
-# xile
+<p align="center">
+  <a href="https://github.com/mxvsh/xile">
+    <img src="https://github.com/user-attachments/assets/1a64aca9-0167-440e-9307-dbb61b9ecf9f" width="80px" alt="BotMate logo" />
+  </a>
+</p>
 
-### The Self-Hosted Cloud File Manager
+<h3 align="center">
+  xile - file manager
+</h3>
+<p align="center">
+Open-source, self-hosted cloud file manager designed to unify file storage across multiple cloud providers
+</p>
+
+<p align="center">
+  <a href="#">Cloud (coming soon)</a> · 
+  <a href="https://github.com/mxvsh/xile">Documentation</a> · 
+  <a href="https://discord.gg/3kUSy2d">Discord</a>
+</p>
+
 
 **xile** is an open-source, self-hosted cloud file manager designed to unify file storage across multiple cloud providers into one seamless interface. Built with privacy, flexibility, and simplicity in mind, xile empowers users to manage files across different platforms without relying on centralized services.
 
@@ -31,4 +47,3 @@ xile is licensed under the **MIT License** — free to use, modify, and distribu
 ---
 
 Stay tuned for the official release and detailed documentation!
-
