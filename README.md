@@ -17,6 +17,8 @@ Open-source, self-hosted cloud file manager designed to unify file storage acros
   <a href="https://discord.gg/3kUSy2d">Discord</a>
 </p>
 
+> [!NOTE]
+> The project is under active development and not ready to use.
 
 **xile** is an open-source, self-hosted cloud file manager designed to unify file storage across multiple cloud providers into one seamless interface. Built with privacy, flexibility, and simplicity in mind, xile empowers users to manage files across different platforms without relying on centralized services.
 
