@@ -1,18 +1,17 @@
 {
 	"name": "xile",
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@types/bun": "latest",
+		"prettier": "^3.4.2",
 		"turbo": "^2.4.4"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"
 	},
-	"packageManager": "bun@1.2.0",
+	"packageManager": "pnpm@9.15.0",
 	"private": true,
 	"scripts": {
 		"dev": "turbo dev",
-		"format": "biome check --write"
+		"format": "turbo format"
 	},
 	"workspaces": ["apps/*", "packages/*"]
 }
