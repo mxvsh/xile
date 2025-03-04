@@ -11,7 +11,8 @@
 	"packageManager": "bun@1.2.0",
 	"private": true,
 	"scripts": {
-		"dev": "turbo dev"
+		"dev": "turbo dev",
+		"format": "biome check --write"
 	},
 	"workspaces": ["apps/*", "packages/*"]
 }
