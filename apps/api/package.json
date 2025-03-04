@@ -1,16 +1,19 @@
 {
 	"name": "api",
-	"version": "1.0.50",
+	"module": "index.ts",
+	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "bun run --watch src/index.ts"
-	},
-	"dependencies": {
-		"elysia": "latest",
-		"zod": "^3.24.2"
+		"dev": "bun --watch index.ts"
 	},
 	"devDependencies": {
-		"bun-types": "latest"
+		"@types/bun": "latest"
 	},
-	"module": "src/index.js"
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@nestjs/common": "^11.0.11",
+		"@nestjs/core": "^11.0.11",
+		"@nestjs/platform-express": "^11.0.11"
+	}
 }
